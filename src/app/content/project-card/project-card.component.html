@@ -1,0 +1,48 @@
+<div
+  class="project"
+  (mouseleave)="setNotClicked()"
+  (contextmenu)="setNotClicked($event)"
+>
+  <div class="project__image" (click)="setClicked()">
+    <img [src]="project.image" [alt]="project.name" />
+    <div class="project__image__blur">
+      <div class="project__image__blur__background"></div>
+    </div>
+  </div>
+  <div class="project__content">
+    <h2 class="project__content__name" (click)="openProject()">
+      {{ project.name }}
+    </h2>
+
+    <div class="project__content__tags">
+      <span *ngFor="let tag of project.tags">{{ tag }}</span>
+    </div>
+
+    <div class="project__content__description">
+      {{ project.description }}
+    </div>
+    <div class="project__content__links">
+      <a
+        class="project__content__links__link"
+        [href]="project.link"
+        target="_blank"
+        rel="noopener noreferrer"
+        >View Project</a
+      >
+    </div>
+  </div>
+  <div class="project__popUp" *ngIf="isClicked" (click)="openProject()">
+    <p>View Project</p>
+    <span class="project__popUp__close" (click)="setNotClicked()"
+      ><svg
+        width="50"
+        height="50"
+        viewBox="0 0 50 50"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line x1="10" y1="10" x2="40" y2="40" stroke="red" stroke-width="2" />
+        <line x1="40" y1="10" x2="10" y2="40" stroke="red" stroke-width="2" />
+      </svg>
+    </span>
+  </div>
+</div>
