@@ -8,13 +8,6 @@
       "tags": ["HTML", "JavaScript", "CSS", "WebMIDI API"]
     },
     {
-      "name": "NASA Image Search",
-      "description": "A web app that allows you to search for images from NASA's image API.",
-      "image": "assets/images/NASAImageSearch.png",
-      "link": "https://tilmanper.github.io/NASAImageSearch/",
-      "tags": ["HTML", "JavaScript", "CSS"]
-    },
-    {
       "name": "Infinite Game of Life",
       "description": "A simulation of Conways Game of Life with an infinite grid and various controls. Uses a web worker for the calculations.",
       "image": "assets/images/InfiniteLife.png",
@@ -23,7 +16,7 @@
     },
     {
       "name": "Conways Game Of Life",
-      "description": "Simulation of Conways Game of Life with various presets and controls.",
+      "description": "Small Simulation of Conways Game of Life with various presets and controls.",
       "image": "assets/images/GameOfLife.png",
       "link": "https://tilmanper.github.io/GameOfLife/",
       "tags": ["HTML", "JavaScript", "CSS"]
@@ -48,6 +41,13 @@
       "image": "assets/images/ValueTable.png",
       "link": "https://tilmanper.github.io/ValueTable/",
       "tags": ["Angular", "TypeScript", "SCSS"]
+    },
+    {
+      "name": "NASA Image Search",
+      "description": "A web app that allows you to search for images from NASA's image API.",
+      "image": "assets/images/NASAImageSearch.png",
+      "link": "https://tilmanper.github.io/NASAImageSearch/",
+      "tags": ["HTML", "JavaScript", "CSS"]
     },
     {
       "name": "Counters",
