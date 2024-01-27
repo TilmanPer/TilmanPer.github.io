@@ -10,12 +10,12 @@
     </div>
   </div>
   <div class="project__content">
-    <h2 class="project__content__name" (click)="openProject()">
+    <h2 class="project__content__name" (click)="filterBy(project.name)">
       {{ project.name }}
     </h2>
 
     <div class="project__content__tags">
-      <span *ngFor="let tag of project.tags">{{ tag }}</span>
+      <span *ngFor="let tag of project.tags" (click)="filterBy(tag)">{{ tag }}</span>
     </div>
 
     <div class="project__content__description">
