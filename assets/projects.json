@@ -8,6 +8,13 @@
       "tags": ["HTML", "JavaScript", "CSS", "WebMIDI API"]
     },
     {
+      "name": "Midi Visualizer",
+      "description": "A web app that reads active MIDI inputs and visualizes the notes. Visualization can be customized with various settings.",
+      "image": "assets/images/MidiVisualizer.png",
+      "link": "https://tilmanper.github.io/MidiVisualizer/",
+      "tags": ["Angular", "TypeScript", "SCSS", "WebMIDI API"]
+    },
+    {
       "name": "Infinite Game of Life",
       "description": "A simulation of Conways Game of Life with an infinite grid and various controls. Uses a web worker for the calculations.",
       "image": "assets/images/InfiniteLife.png",
